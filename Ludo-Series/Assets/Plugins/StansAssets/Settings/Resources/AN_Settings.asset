@@ -25,7 +25,7 @@ MonoBehaviour:
   Contacts: 0
   Social: 0
   GooglePlay: 0
-  CameraAndGallery: 0
+  CameraAndGallery: 1
   MediaPlayer: 0
   LocalNotifications: 0
   SkipPermissionsDialog: 0
