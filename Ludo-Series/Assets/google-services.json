@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "465116302344",
+    "firebase_url": "https://ludo-series-default-rtdb.firebaseio.com",
+    "project_id": "ludo-series",
+    "storage_bucket": "ludo-series.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465116302344:android:608d0430e45139d15855bd",
+        "android_client_info": {
+          "package_name": "com.MT.LudoSeries"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "465116302344-0d4u4u2b78d44c1f9gnjieala5pfb373.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.MT.LudoSeries",
+            "certificate_hash": "53981ad8a76570602852ea4077346c8f8c938d66"
+          }
+        },
+        {
+          "client_id": "465116302344-ulsuup88jf152mfc5r5kbpm4nnng1k7f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhDMRP7zcTG5sYgTi8z-H3dtIHlce0bKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "465116302344-ulsuup88jf152mfc5r5kbpm4nnng1k7f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
