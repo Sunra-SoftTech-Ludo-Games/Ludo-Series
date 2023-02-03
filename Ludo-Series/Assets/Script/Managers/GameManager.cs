@@ -205,7 +205,7 @@ public class GameManager
         //receivedInitPositions = false;
         LinkFbAccount = false;
         addBotPlayers = false;
-
+        eventIdsBT.Clear();
     }
 
     public List<int> eventIdsBT = new List<int>();

@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using System;
 
 public class cutAmount : MonoBehaviour
 {
    
     int amonut;
     public TMP_Text entryFees;
-
     private void OnEnable()
     {
         entryFees.text = GameManager.Instance.payoutCoins.ToString();
@@ -30,8 +30,6 @@ public class cutAmount : MonoBehaviour
         GameManager.Instance.JoinEvents = true;
 
         GameManager.Instance.eventIdsBT.Add(GameManager.Instance.eventIDs);
-
-        BidAmount.Instance.ONTest(GameManager.Instance.eventIDs.ToString());
     }
 
     void ShowGameConfiguration(int index)
@@ -55,4 +53,7 @@ public class cutAmount : MonoBehaviour
         }
        
     }
+
+
+   
 }

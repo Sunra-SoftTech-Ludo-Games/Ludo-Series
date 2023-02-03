@@ -85,26 +85,5 @@ public class BidAmount : MonoBehaviour
         
     }
 
-    public void ONTest(string eventsId)
-    {
-        //  k = 0eventsId;
-        //if (GameManager.Instance.EnterEvents == true && k == GameManager.Instance.eventIDs)
-
-        if (string.IsNullOrEmpty(eventsId))
-            return;
-        Debug.Log(eventID);
-
-        if(GameManager.Instance.eventIdsBT.Contains(Convert.ToInt16(eventsId)))
-        {
-            button.enabled = false;
-            button.transform.GetComponent<Button>().GetComponentInChildren<TMP_Text>().text = "";
-            this.button.GetComponent<Button>().image.sprite = sprite;
-            GameManager.Instance.StarteventID = k;
-            GameManager.Instance.eventMode = eventMode;
-        }
-        else
-        {
-            button.enabled = true;            
-        }
-    }
+   
 }
